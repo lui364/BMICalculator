@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color:#0A0E21 ;
+}
+.titulo{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.row{
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.btn-primary{
+    background-color: #FF3366;
+    border-color: #FF3366;
+    border-radius: 25px;
+    width: 100%;
+}
+.btn-primary:hover{
+background-color: #FF3366;
+border-color:#FF3366 ;
+}
